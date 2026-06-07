@@ -1,7 +1,7 @@
 export const clientInfo = {
   name: "Sofia Siegman",
   role: "Comunicadora Visual & Creadora de Contenido",
-  avatar: "public/fotS.jpeg", // Foto de perfil placeholder estética
+  avatar: "/fotS.jpeg", // Foto de perfil placeholder estética
   whatsappNumber: "5493434753345", // Reemplazar por el número real con código de país
 };
 
