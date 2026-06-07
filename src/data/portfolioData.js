@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
     title: "Proyecto Creativo - Sofia Siegman", // Poné el título real del Reel
     category: "ugc", // O la categoría que corresponda
-    description: "Acá va una descripción atractiva de lo que logró Sofia con este video en particular.",
+    description: "Verano en la piel: recap de un día de mar y amigas. Edición rítmica y nostálgica con estética analógica para capturar la energía genuina del momento.",
     
     // ✅ EL LINK LIMPIO Y CONFIGURADO:
     videoUrl: "https://www.instagram.com/reel/DTjRopcjDij/embed", 
