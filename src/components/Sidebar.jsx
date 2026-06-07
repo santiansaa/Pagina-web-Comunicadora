@@ -30,22 +30,22 @@ export default function Sidebar({ activeCategory, setActiveCategory }) {
           {clientInfo.role}
         </p>
 
-        {/* Navegación / Filtros */}
-        <nav className="w-full space-y-2 hidden md:block">
-          {categories.map((cat) => (
-            <button
-              key={cat.id}
-              onClick={() => setActiveCategory(cat.id)}
-              className={`w-full text-left px-4 py-2.5 rounded-lg text-sm transition-all duration-300 font-medium ${
-                activeCategory === cat.id
-                  ? 'bg-brand-pink text-gray-900 font-semibold'
-                  : 'text-gray-500 hover:bg-gray-50 hover:text-gray-900'
-              }`}
-            >
-              {cat.label}
-            </button>
-          ))}
-        </nav>
+        {/* Navegación / Filtros adaptable */}
+<nav className="w-full flex flex-row flex-wrap justify-center gap-2 mt-4 lg:mt-0 lg:flex-col lg:space-y-2">
+  {categories.map((cat) => (
+    <button
+      key={cat.id}
+      onClick={() => setActiveCategory(cat.id)}
+      className={`text-xs md:text-sm px-3 py-1.5 lg:px-4 lg:py-2.5 rounded-lg transition-all duration-300 font-medium whitespace-nowrap ${
+        activeCategory === cat.id
+          ? 'bg-brand-pink text-gray-900 font-semibold shadow-xs'
+          : 'text-gray-500 hover:bg-gray-50 hover:text-gray-900 bg-gray-100/50 lg:bg-transparent'
+      }`}
+    >
+      {cat.label}
+    </button>
+  ))}
+</nav>
       </div>
 
       {/* Bottom: CTA Dinámico a WhatsApp */}
