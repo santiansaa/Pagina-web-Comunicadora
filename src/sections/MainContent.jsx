@@ -19,7 +19,7 @@ export default function MainContent({ activeCategory }) {
             Portfolio Seleccionado
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-gray-950 font-normal leading-tight max-w-3xl">
-            Creando narrativas visuales con <span className="italic font-normal text-gray-600">sensibilidad</span> y <span className="underline decoration-brand-pink decoration-3 underline-offset-4">propósito</span>.
+            Creadora de contenido y comunicadora digital: Comunico historias, marcas y experiencias a través del contenido audiovisual 
           </h2>
         </header>
 
