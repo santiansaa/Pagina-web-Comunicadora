@@ -19,7 +19,7 @@ export default function MainContent({ activeCategory }) {
             Portfolio Seleccionado
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-gray-950 font-normal leading-tight max-w-3xl">
-            Creadora de contenido y comunicadora digital: Comunico historias, marcas y experiencias a través del contenido audiovisual 
+            Creadora de contenido y comunicadora digital
           </h2>
         </header>
 
