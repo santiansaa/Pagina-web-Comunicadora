@@ -16,26 +16,14 @@ export const categories = [
 export const projects = [
   {
     id: 1,
-    title: "Campaña Estética - Lookbook Otoño",
-    category: "ugc",
-    description: "Creación de contenido orgánico en formato Reels/TikTok para marca de indumentaria consciente. Enfoque humano y dinámico.",
-    videoUrl: "https://player.vimeo.com/video/76979871?h=8272103f6e", // Video placeholder
-    tags: ["UGC", "Moda", "Dirección de Arte"],
+    title: "Proyecto Creativo - Sofia Siegman", // Poné el título real del Reel
+    category: "ugc", // O la categoría que corresponda
+    description: "Acá va una descripción atractiva de lo que logró Sofia con este video en particular.",
+    
+    // ✅ EL LINK LIMPIO Y CONFIGURADO:
+    videoUrl: "https://www.instagram.com/reel/DTjRopcjDij/embed", 
+    
+    tags: ["Instagram", "Reels", "UGC"],
   },
-  {
-    id: 2,
-    title: "Aftermovie - Festival de Arte Urbano",
-    category: "edicion",
-    description: "Edición rítmica, corrección de color y diseño sonoro para el video resumen oficial del festival.",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Video placeholder (reemplazar por el embed real)
-    tags: ["Edición", "Ritmo", "Color Grading"],
-  },
-  {
-    id: 3,
-    title: "Cobertura Lanzamiento Tech",
-    category: "eventos",
-    description: "Captura de momentos clave, entrevistas exprés y entrega de material en tiempo real para historias de Instagram.",
-    videoUrl: "https://player.vimeo.com/video/76979871?h=8272103f6e",
-    tags: ["Eventos", "Real Time", "Social Media"],
-  },
+  
 ];
